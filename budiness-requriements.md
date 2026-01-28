@@ -4,7 +4,17 @@
 > **Project Goal**: Transform raw HR data into actionable intelligence to reduce costly employee turnover by 15% within 12 months.
 
 ---
-
+## 📖 Table of Contents
+- [1. Project Overview](#-1-project-overview)
+- [2. Business Objectives](#-2-business-objectives)
+- [3. Target Audience & Stakeholders](#-3-target-audience--stakeholders)
+- [4. Key Performance Indicators (KPIs)](#-4-key-performance-indicators-kpis)
+- [5. Data Sources & Integration Requirements](#-5-data-sources--integration-requirements)
+- [6. Functional Requirements](#-6-functional-requirements)
+- [7. Non-Functional Requirements](#️-7-non-functional-requirements)
+- [8. Success Criteria & Measurement](#-8-success-criteria--measurement)
+- [9. Implementation Constraints & Assumptions](#️-9-implementation-constraints--assumptions)
+  
 ## 🎯 1. Project Overview
 
 The HR Attrition Analytics Dashboard is an interactive Tableau visualization platform designed to provide data-driven insights into employee attrition patterns, workforce demographics, and retention risk factors across the organization.
