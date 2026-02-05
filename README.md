@@ -1,11 +1,11 @@
 # HR Attrition Analytics Interactive Dashboard
 
 <img width="3366" height="1130" alt="msedge_9JgjIE4RBR" src="https://github.com/user-attachments/assets/27da3c4b-e762-482f-8083-fa89150f04a5" />
-https://public.tableau.com/app/profile/the.gideon/viz/HRAttritionAnalyticsDashboard/HRAnalyticsDashboard
+https://public.tableau.com/app/profile/the.gideon/vis/HRAttritionAnalyticsDashboard/HRAnalyticsDashboard
 
 ## Overview
 
-This HR Attrition Analytics Dashboard provides comprehensive insights into employee attrition patterns within an organization. Built using Tableau Public, this dashboard delivers actionable intelligence to help HR professionals and business leaders understand and address talent retention challenges.
+This interective analytics Dashboard provides comprehensive insights into employee attrition patterns within an organisation. Built using Tableau, this dashboard delivers actionable intelligence to help HR professionals and business leaders understand and address talent retention challenges.
 
 ## Key Metrics
 
@@ -18,7 +18,7 @@ This HR Attrition Analytics Dashboard provides comprehensive insights into emplo
 ## Dashboard Components
 
 ### 1. Attrition by Department
-A pie chart visualizing attrition distribution across different departments (HR, R&D, Sales), highlighting that Sales has the highest attrition rate at 38.8%.
+A pie chart visualising attrition distribution across different departments (HR, R&D, Sales), highlighting that Sales has the highest attrition rate at 38.8%.
 
 ### 2. Job Satisfaction Analysis
 A detailed breakdown of job satisfaction levels (1-4 scale) across different job roles, revealing satisfaction patterns that correlate with attrition risk.
@@ -44,21 +44,11 @@ This dashboard enables HR teams to:
 - **Primary Tool**: Tableau Public
 - **Data Source**: HRIS (Human Resource Information System) database
 - **Data Processing**: SQL queries for data transformation and aggregation
-- **Visualization Types**: 
+- **Visualisation Types**: 
   - Pie charts for proportional analysis
   - Bar charts for comparative analysis
   - Heat maps for multi-dimensional insights
   - Interactive filters for dynamic exploration
-
-## How to Use
-
-1. Download the Tableau Public application
-2. Open the HR_Attrition_Dashboard.twb file
-3. Use the interactive filters at the top to segment data by:
-   - Education field
-   - Gender
-   - Age group
-4. Click on any visualization to drill down for more detailed insights
 
 ## Key Insights
 
@@ -70,7 +60,7 @@ This dashboard enables HR teams to:
 
 ## Next Steps
 
-For implementation in your organization:
+For implementation in your organisation:
 1. Integrate with your HRIS system for real-time data
 2. Establish threshold alerts for high-risk segments
 3. Develop targeted retention programs for high-risk departments
