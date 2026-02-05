@@ -17,7 +17,7 @@
   
 ## 🎯 1. Project Overview
 
-The HR Attrition Analytics Dashboard is an interactive Tableau visualization platform designed to provide data-driven insights into employee attrition patterns, workforce demographics, and retention risk factors across the organization.
+The dashboard is an interactive Tableau visualisation platform designed to provide data-driven insights into employee attrition patterns, workforce demographics and retention risk factors across the organisation.
 
 ---
 
@@ -25,7 +25,7 @@ The HR Attrition Analytics Dashboard is an interactive Tableau visualization pla
 
 - **Reduce voluntary attrition** by 15% within 12 months through early identification of at-risk employee segments
 - **Improve retention strategies** by understanding key drivers of employee departure (work-life balance, overtime patterns, job satisfaction)
-- **Optimize recruitment planning** by forecasting potential attrition in critical departments and roles
+- **Optimise recruitment planning** by forecasting potential attrition in critical departments and roles
 - **Enhance employee experience** by identifying departments/teams with concerning attrition patterns requiring intervention
 - **Support data-driven HR decision-making** with real-time visibility into workforce stability metrics
 
@@ -36,8 +36,8 @@ The HR Attrition Analytics Dashboard is an interactive Tableau visualization pla
 | Role | Primary Needs | Access Level |
 |------|---------------|--------------|
 | **HR Directors** | Strategic attrition trends, department comparisons, ROI of retention programs | Full dashboard access |
-| **Department Heads** | Team-specific attrition risks, comparison to organization averages | Department-filtered views |
-| **HR Business Partners** | Individual risk factors, intervention recommendations | Employee-level detail (anonymized) |
+| **Department Heads** | Team-specific attrition risks, comparison to organisation averages | Department-filtered views |
+| **HR Business Partners** | Individual risk factors, intervention recommendations | Employee-level detail (anonymised) |
 | **Executives** | High-level attrition metrics, financial impact, trend forecasting | Executive summary view |
 | **Talent Acquisition** | Forward-looking attrition forecasts to plan recruitment pipelines | Forecasting module |
 
@@ -48,7 +48,7 @@ The HR Attrition Analytics Dashboard is an interactive Tableau visualization pla
 ### Primary Metrics
 - **Attrition Rate**: % of employees leaving voluntarily within rolling 12-month period
 - **Retention Rate**: % of employees remaining after 12/24/36 months of employment
-- **Cost of Attrition**: Estimated financial impact including recruitment, onboarding, and productivity loss
+- **Cost of Attrition**: Estimated financial impact including recruitment, onboarding and productivity loss
 - **Time-to-Fill Vacancies**: Average days to replace departed employees by role criticality
 
 ### Secondary Metrics
@@ -65,11 +65,11 @@ The HR Attrition Analytics Dashboard is an interactive Tableau visualization pla
 
 | Source | Frequency | Key Fields | Transformation Requirements |
 |--------|-----------|------------|----------------------------|
-| **HRIS System** | Daily | Employee demographics, tenure, department, job role | Age band categorization (Under 25, 25-34, etc.) |
-| **Performance Management** | Monthly | Job satisfaction scores, performance ratings | Standardization of rating scales |
+| **HRIS System** | Daily | Employee demographics, tenure, department, job role | Age band categorisation (Under 25, 25-34, etc.) |
+| **Performance Management** | Monthly | Job satisfaction scores, performance ratings | Standardisation of rating scales |
 | **Time & Attendance** | Weekly | Overtime hours, business travel frequency | Travel pattern classification (Rarely/Frequently/Non-Travel) |
-| **Exit Interviews** | Ad-hoc | Departure reasons, manager feedback | Sentiment analysis categorization |
-| **Compensation Data** | Quarterly | Salary bands, promotion history | Normalization for role/tenure comparisons |
+| **Exit Interviews** | Ad-hoc | Departure reasons, manager feedback | Sentiment analysis categorisation |
+| **Compensation Data** | Quarterly | Salary bands, promotion history | Normalisation for role/tenure comparisons |
 
 ---
 
@@ -78,7 +78,7 @@ The HR Attrition Analytics Dashboard is an interactive Tableau visualization pla
 ### Dashboard Views
 1. **Executive Summary View**
    - High-level attrition metrics with YoY comparison
-   - Financial impact visualization (cost of turnover)
+   - Financial impact visualisation (cost of turnover)
    - Top 3 risk factors driving attrition
 
 2. **Department Risk Analysis**
@@ -113,7 +113,7 @@ The HR Attrition Analytics Dashboard is an interactive Tableau visualization pla
 ## ⚙️ 7. Non-Functional Requirements
 
 - **Performance**: Dashboard must load in <3 seconds with full dataset (1,498+ employee records)
-- **Security**: Row-level security ensuring managers only see their direct reports; HR leadership sees organization-wide data
+- **Security**: Level security ensuring managers only see their direct reports; HR leadership sees organisation-wide data
 - **Data Freshness**: Near real-time updates (within 24 hours of source system changes)
 - **Accessibility**: WCAG 2.1 AA compliance for color contrast and screen reader compatibility
 - **Audit Trail**: All data exports and sensitive views must be logged for compliance
@@ -136,7 +136,7 @@ The HR Attrition Analytics Dashboard is an interactive Tableau visualization pla
 
 - Initial implementation focuses on voluntary attrition; involuntary terminations excluded from analysis
 - Data quality limitations acknowledged (e.g., self-reported satisfaction scores may have bias)
-- Dashboard will not identify individual employees by name in shared views (anonymized for department heads)
+- Dashboard will not identify individual employees by name in shared views (anonymised for department heads)
 - Requires integration with existing HRIS system via secure API connection
 - Change management program required to drive adoption among department heads
 
@@ -144,8 +144,6 @@ The HR Attrition Analytics Dashboard is an interactive Tableau visualization pla
 
 <div align="center">
 
-*Document Version: 1.0*  
-*Last Updated: January 2026*  
-*Approved by: HR Leadership Team & Analytics Steering Committee*
+*Document Version: 2.0*   
 
 </div>
